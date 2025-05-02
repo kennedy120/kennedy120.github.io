@@ -1,90 +1,237 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css"
-    />
-  </head>
-  <body>
-    <div class="about-container">
-      <div class="profile-image">
-        <img src="images/team-member4.png" alt="" />
-      </div>
 
-      <div class="description">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque a
-          quam nulla ipsa natus quisquam!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ex
-          odit tenetur alias expedita impedit in veritatis mollitia ipsam quae
-          et quia, deleniti facere praesentium sunt assumenda earum saepe
-          aperiam ullam sit. Tempora animi maxime a velit soluta laboriosam quo!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, tempora!
-        </p>
-      </div>
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>
+            GardenMax LTD
+        </title>
+        <script src="https://cdn.tailwindcss.com">
+        </script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+        <style>
+            body {
+                font-family: 'Roboto', sans-serif;
+            }
+        </style>
+    </head>
 
-      <div class="projects-container">
-        <div class="project">
-          <h3 class="project-name">Websites Designed</h3>
-          <div class="project-number odometer websites-designed">0</div>
-        </div>
+    <body class="bg-gray-100">
+        <header class="bg-white shadow">
+            <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+                <a class="text-white bg-green-500 hover:bg-blue-500 px-3 py-1 rounded" href="#">
+                    GardenMax Limited Products
+                </a>
+                <nav class="flex space-x-4">
+                    <a class="text-gray-800 hover:text-gray-600" href="#">
+                        Home
+                    </a>
+                    <a class="text-gray-800 hover:text-gray-600" href="#">
+                        About
+                    </a>
+                    <a class="text-gray-800 hover:text-gray-600" href="#">
+                        Contact
+                    </a>
+                </nav>
+                <div class="flex items-center space-x-4">
+                    <a class="text-blue-800 hover:text-gray-600" href="#">
+                        <i class="fab fa-facebook">
+                        </i>
+                    </a>
+                    <a class="text-green-800 hover:text-gray-600" href="#">
+                        <i class="fab fa-whatsapp">
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main class="container mx-auto px-6 py-8">
+            <section class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-gray-800">
+                    Welcome to GardenMax Limited Chicken Products
+                </h1>
+                <br>
+                <hr>
+                <hr>
+                <h3 class="text-4xl font-bold text-gray-600">Shop With Us</h3>
+                <p class="text-gray-600 mt-4">
+                    Your one-stop shop for the freshest and highest quality chicken products.
+                </p>
+            </section>
+            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img alt="Fresh whole chicken on a wooden board with herbs and spices"
+                        class="w-full h-48 object-cover" height="400"
+                        src="E06.jpg"
+                        width="600" />
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold text-gray-800">
+                            30 Packs
+                        </h2>
+                        <p class="text-gray-600 mt-2">
+                            Fresh Eggs. 30 Pack Trays.
+                        </p>
+                        <div class="flex justify-between items-center mt-4">
+                            <span class="text-gray-800 font-bold">
+                                Ksh 450
+                            </span>
+                            <a class="text-white bg-green-500 hover:bg-red-600 px-3 py-1 rounded" href="#">
+                                In Stock
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img alt="Pack of fresh chicken breasts on a white background" class="w-full h-48 object-cover"
+                        height="400"
+                        src="15.jpeg"
+                        width="600" />
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold text-gray-800">
+                            15 Packs
+                        </h2>
+                        <p class="text-gray-600 mt-2">
+                            Fresh Eggs. 15 Pack Trays.
+                        </p>
+                        <div class="flex justify-between items-center mt-4">
+                            <span class="text-gray-800 font-bold">
+                                Ksh 250
+                            </span>
+                            <a class="text-white bg-blue-500 hover:bg-green-500 px-3 py-1 rounded" href="#">
+                                In Stock
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img alt="Pack of fresh chicken thighs on a white background" class="w-full h-48 object-cover"
+                        height="400"
+                        src="6.png"
+                        width="600" />
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold text-gray-800">
+                           6 Packs.
+                        </h2>
+                        <p class="text-gray-600 mt-2">
+                            Your Favourite Packs.
+                        </p>
+                        <div class="flex justify-between items-center mt-4">
+                            <span class="text-gray-800 font-bold">
+                                Ksh 150
+                            </span>
+                            <a class="text-white bg-blue-500 hover:bg-gray-500 px-3 py-1 rounded" href="#">
+                                In Stock
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img alt="Pack of fresh chicken wings on a white background" class="w-full h-48 object-cover"
+                        height="400"
+                        src="broilers.jpg"
+                        width="600" />
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold text-gray-800">
+                            Live Broilers
+                        </h2>
+                        <p class="text-gray-600 mt-2">
+                            Live Broilers for Sale. Call to Order.
+                        </p>
+                        <br>
+                        <br>
+                        <hr>
+                        <hr>
+                        <a class="text-white bg-blue-600 hover:bg-blue-600 px-3 py-1 rounded" href="#">
+                            Free Delivery
+                        </a>
+                        <div class="flex justify-between items-center mt-4">
+                            <span class="text-gray-800 font-bold">
+                                Ksh 1,000
+                            </span>
+                            <a class="text-white bg-red-500 hover:bg-blue-600 px-3 py-1 rounded" href="#">
+                                Order Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img alt="Pack of fresh chicken drumsticks on a white background" class="w-full h-48 object-cover"
+                        height="400"
+                        src="Layers.jpg"
+                        width="600" />
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold text-gray-800">
+                            Layers
+                        </h2>
+                        <p class="text-gray-600 mt-2">
+                            Layers Chicks Available. Call us now to make your order.
+                        </p>
+                        <br>
+                        <hr>
+                        <hr>
+                        <a class="text-white bg-blue-600 hover:bg-blue-600 px-3 py-1 rounded" href="#">
+                            Free Delivery
+                        </a>
+                        <div class="flex justify-between items-center mt-4">
+                            <span class="text-gray-800 font-bold">
+                                Ksh 550
+                            </span>
+                            <a class="text-white bg-green-500 hover:bg-blue-600 px-3 py-1 rounded" href="#">
+                                Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img alt="Pack of fresh chicken tenders on a white background" class="w-full h-48 object-cover"
+                        height="400"
+                        src="Chicks.jpg"
+                        width="600" />
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold text-gray-800">
+                            Chicks
+                        </h2>
+                        <p class="text-gray-600 mt-2">
+                            2 Day Heathy Chicks Available for Sale
+                        </p>
+                        <br>
+                        <br>
+                        <hr>
+                        <hr>
+                        <a class="text-white bg-blue-600 hover:bg-blue-600 px-3 py-1 rounded" href="#">
+                            Free Delivery
+                        </a>
+                        <div class="flex justify-between items-center mt-4">
+                            <span class="text-gray-800 font-bold">
+                                Ksh 100
+                            </span>
+                            <a class="text-white bg-blue-500 hover:bg-blue-600 px-3 py-1 rounded" href="#">
+                                Call to Order
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-white shadow mt-12">
+            <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+                <p class="text-gray-800">
+                    © 2025 GardenMax Limited Chicken Products. All rights reserved.
+                </p>
+                <div class="flex space-x-4">
+                    <a class="text-gray-800 hover:text-gray-600" href="#">
+                        <i class="fab fa-facebook-f">
+                        </i>
+                    </a>
+                   
+                    <a class="text-gray-800 hover:text-gray-600" href="#">
+                        <i class="fab fa-whatsapp">
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
 
-        <div class="project">
-          <h3 class="project-name">Apps Developed</h3>
-          <div class="project-number odometer apps-developed">0</div>
-        </div>
-      </div>
-
-      <h2 class="our-team-heading">Our Team</h2>
-
-      <div class="our-team">
-        <div class="team-member">
-          <img src="images/team-member1.png" alt="" />
-          <div class="designation">
-            <strong>Alice J.,</strong> (Project Manager)
-          </div>
-        </div>
-
-        <div class="team-member">
-          <img src="images/team-member2.png" alt="" />
-          <div class="designation">
-            <strong>Dave B.,</strong> (Lead Designer)
-          </div>
-        </div>
-
-        <div class="team-member">
-          <img src="images/team-member3.png" alt="" />
-          <div class="designation">
-            <strong>Jeniffer A.,</strong> (Lead Programmer)
-          </div>
-        </div>
-      </div>
-
-      <div class="our-mission">
-        <img class="quote-icon" src="images/quote-icon.png" alt="" />
-        <p>Our mission is to provide the best services to our clients.</p>
-      </div>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
-
-    <script>
-      const websitesDesigned = document.querySelector(".websites-designed");
-      const appsdeveloped = document.querySelector(".apps-developed");
-
-      setTimeout(() => {
-        websitesDesigned.innerHTML = "43";
-        appsdeveloped.innerHTML = "15";
-      }, 400);
-    </script>
-  </body>
 </html>
